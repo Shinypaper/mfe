@@ -5,11 +5,13 @@ specifiers:
   '@babel/plugin-transform-runtime': ^7.12.1
   '@babel/preset-env': ^7.12.1
   '@babel/preset-react': ^7.12.1
+  '@babel/runtime': ^7.18.3
   '@material-ui/core': ^4.11.0
   '@material-ui/icons': ^4.9.1
   babel-loader: ^8.1.0
   clean-webpack-plugin: ^3.0.0
   css-loader: ^5.0.0
+  history: 4.10.1
   html-webpack-plugin: ^4.5.0
   react: ^17.0.1
   react-dom: ^17.0.1
@@ -21,8 +23,10 @@ specifiers:
   webpack-merge: ^5.2.0
 
 dependencies:
+  '@babel/runtime': 7.18.3
   '@material-ui/core': 4.12.4_sfoxds7t5ydpegc3knd667wn6m
   '@material-ui/icons': 4.11.3_phlbjj2qqbzyjdfzujtmlw3coi
+  history: 4.10.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-router-dom: 5.3.3_react@17.0.2

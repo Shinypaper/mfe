@@ -11,7 +11,6 @@ const generateClassName = createGenerateClassName({
 
 export default ({ history, onSignIn }) => {
   return <div>
-    <h1>Helllo</h1>
     <StylesProvider generateClassName={generateClassName}>
       <Router history={history}>
         <Switch>
